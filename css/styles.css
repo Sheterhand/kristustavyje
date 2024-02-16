@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'promocyjamedium';
+    src: url('../fonts/promocyja-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Reset*/
+body{
+    margin: 0;
+    color: rgb(31, 12, 12);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Colors */
+html{
+    --violet: #39129f;
+    --lighter-violet: rgb(183, 87, 177);
+    --golden: #f3d80d;
+    --light-blue: #4ae3f5;
+    --pink: #fd90df;
+    --green: #5ab352;
+      }
+
+/* Body */
+body { 
+    background: rgb(57,18,159);
+    background: radial-gradient(circle, rgb(183, 87, 177) 0%, rgba(57,18,159,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+
+.trilype-liepsna{
+    z-index: -1;
+}
+
+/* Grid */
+
+.container-main {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". diktavimai ."
+      "klausimai trilype-liepsna irankiai"
+      ". knygos .";
+    justify-items: center; 
+    align-items: center;
+  }
+  
+  .klausimai { grid-area: klausimai; }
+  
+  .trilype-liepsna { grid-area: trilype-liepsna; }
+  
+  .irankiai { grid-area: irankiai; }
+  
+  .diktavimai { grid-area: diktavimai; }
+  
+  .knygos { grid-area: knygos; }
+
+  .container-main .nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: 'promocyjamedium', serif;
+  }
+
+  .container-main .diktavimai:hover a,
+  .container-main .diktavimai:focus a
+  {
+    color: var(--golden);
+    text-shadow: 2px 2px 4px var(--golden);
+  }
+
+  .container-main .irankiai:hover a,
+  .container-main .irankiai:focus a
+  {
+    color: var(--pink);
+    text-shadow: 2px 2px 4px var(--pink);
+  }
+
+  .container-main .knygos:hover a,
+  .container-main .knygos:focus a
+  {
+    color: var(--green);
+    text-shadow: 2px 2px 4px var(--green);
+  }
+
+  .container-main .klausimai:hover a,
+  .container-main .klausimai:focus a
+  {
+    color: var(--light-blue);
+    text-shadow: 2px 2px 4px var(--light-blue);
+  }
+  
+@media (max-width: 840px){
+  .container-main .nav a{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px){
+  .container-main .nav a{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px){
+  .container-main .nav a{
+    font-size: 1.6rem;
+  }
+}
+
+/* Navigation */
+
+nav{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+
+/* Klausimai ir atsakymai */
+
+.bg-klausimai {
+  display: flex;
+  justify-content: center;
+
+  background-image: url(/images/alessio-soggetti-LFjxCbhs0QM-unsplash.jpg);
+  background-size: cover;
+  /* background: rgb(5, 94, 158);
+    background: linear-gradient(270deg, rgba(5, 94, 158, 0.4864146342130602) 50%, rgba(74, 227, 245, 1) 100%); */
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1403px;
+}
+
+.container nav {
+}
+
+.container main {
+}
+
+/* Navigation */
+
+.accordion {
+  background: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: italic;
+  border: none;
+}
+
+.accordion:hover{
+  font-weight: bold;
+}
+
+
+.menu-item {
+  min-width: 300px;
+}
+
+.menu-item a{
+  color: rgb(5, 94, 158);
+    color: linear-gradient(329deg, rgba(5, 94, 158, 0.4864146342130602) 52%, rgba(5, 51, 80, 0.6516807406556373) 96%);
+}
+
+/* Main */
+main {
+  padding: 1em;
+}
+
+main section{
+  background: white;
+  opacity: 0.8;
+  padding: 1em;
+  max-width: 70%;
+}
+
+.panel {
+  display: none;
+}

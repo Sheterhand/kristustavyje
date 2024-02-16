@@ -150,7 +150,7 @@ ul li a{
   display: flex;
   justify-content: center;
 
-  background-image: url(/images/alessio-soggetti-LFjxCbhs0QM-unsplash.jpg);
+  background-image: url(../images/alessio-soggetti-LFjxCbhs0QM-unsplash.jpg);
   background-size: cover;
   /* background: rgb(5, 94, 158);
     background: linear-gradient(270deg, rgba(5, 94, 158, 0.4864146342130602) 50%, rgba(74, 227, 245, 1) 100%); */

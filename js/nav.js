@@ -1,8 +1,9 @@
 $(document).ready(() => {
     $(".accordion").on('click', () => {
-        $(this).next().slideToggle();
+        $(this).next().slideDown();
         
     });
+
 
     // $('.accordion').on('click', () => {
     //     $(this).hide();

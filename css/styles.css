@@ -125,7 +125,7 @@ nav {
 .bg-klausimai {
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url('/images/croped_mountains.jpg');
+  background-image: url('../images/croped_mountains.jpg');
   background-size: cover;
   /* background: rgb(5, 94, 158);
     background: linear-gradient(270deg, rgba(5, 94, 158, 0.4864146342130602) 50%, rgba(74, 227, 245, 1) 100%); */

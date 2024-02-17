@@ -1,174 +1,174 @@
 @font-face {
-    font-family: 'promocyjamedium';
-    src: url('../fonts/promocyja-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'promocyjamedium';
+  src: url('../fonts/promocyja-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 /* Reset*/
-body{
-    margin: 0;
-    color: rgb(31, 12, 12);
-    font-family: 'Noto Serif', serif;
-    font-size: 18px;
+body {
+  margin: 0;
+  color: rgb(31, 12, 12);
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 
 img,
 picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Colors */
-html{
-    --violet: #39129f;
-    --lighter-violet: rgb(183, 87, 177);
-    --golden: #f3d80d;
-    --light-blue: #4ae3f5;
-    --pink: #fd90df;
-    --green: #5ab352;
-      }
+html {
+  --violet: #39129f;
+  --lighter-violet: rgb(183, 87, 177);
+  --golden: #f3d80d;
+  --light-blue: #4ae3f5;
+  --pink: #fd90df;
+  --green: #5ab352;
+}
 
 /* Body */
-body { 
-    background: rgb(57,18,159);
-    background: radial-gradient(circle, rgb(183, 87, 177) 0%, rgba(57,18,159,1) 100%);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-  }
-
-.trilype-liepsna{
-    z-index: -1;
+body {
+  background: rgb(57, 18, 159);
+  background: radial-gradient(circle, rgb(183, 87, 177) 0%, rgba(57, 18, 159, 1) 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
-/* Grid */
-
-.container-main {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". diktavimai ."
-      "klausimai trilype-liepsna irankiai"
-      ". knygos .";
-    justify-items: center; 
-    align-items: center;
-  }
-  
-  .klausimai { grid-area: klausimai; }
-  
-  .trilype-liepsna { grid-area: trilype-liepsna; }
-  
-  .irankiai { grid-area: irankiai; }
-  
-  .diktavimai { grid-area: diktavimai; }
-  
-  .knygos { grid-area: knygos; }
-
-  .container-main .nav a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 4rem;
-    font-family: 'promocyjamedium', serif;
-  }
-
-  .container-main .diktavimai:hover a,
-  .container-main .diktavimai:focus a
-  {
-    color: var(--golden);
-    text-shadow: 2px 2px 4px var(--golden);
-  }
-
-  .container-main .irankiai:hover a,
-  .container-main .irankiai:focus a
-  {
-    color: var(--pink);
-    text-shadow: 2px 2px 4px var(--pink);
-  }
-
-  .container-main .knygos:hover a,
-  .container-main .knygos:focus a
-  {
-    color: var(--green);
-    text-shadow: 2px 2px 4px var(--green);
-  }
-
-  .container-main .klausimai:hover a,
-  .container-main .klausimai:focus a
-  {
-    color: var(--light-blue);
-    text-shadow: 2px 2px 4px var(--light-blue);
-  }
-  
-@media (max-width: 840px){
-  .container-main .nav a{
-    font-size: 3rem;
-  }
+.trilype-liepsna {
+  z-index: -1;
 }
 
-@media (max-width: 650px){
-  .container-main .nav a{
-    font-size: 2rem;
-  }
+/* Typography */
+
+nav {
+  font-family: "Playfair Display", serif;
 }
 
-@media (max-width: 420px){
-  .container-main .nav a{
-    font-size: 1.6rem;
-  }
+/* Grid  Intro*/
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". diktavimai ."
+    "klausimai trilype-liepsna irankiai"
+    ". knygos .";
+  justify-items: center;
+  align-items: center;
 }
 
-/* Navigation */
-
-nav{
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
+.klausimai {
+  grid-area: klausimai;
 }
 
-ul li{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.trilype-liepsna {
+  grid-area: trilype-liepsna;
 }
 
-ul li a{
+.irankiai {
+  grid-area: irankiai;
+}
+
+.diktavimai {
+  grid-area: diktavimai;
+}
+
+.knygos {
+  grid-area: knygos;
+}
+
+.container-main .nav a {
+  color: #fff;
   text-decoration: none;
+  font-size: 4rem;
+  font-family: 'promocyjamedium', serif;
 }
 
+.container-main .diktavimai:hover a,
+.container-main .diktavimai:focus a {
+  color: var(--golden);
+  text-shadow: 2px 2px 4px var(--golden);
+}
+
+.container-main .irankiai:hover a,
+.container-main .irankiai:focus a {
+  color: var(--pink);
+  text-shadow: 2px 2px 4px var(--pink);
+}
+
+.container-main .knygos:hover a,
+.container-main .knygos:focus a {
+  color: var(--green);
+  text-shadow: 2px 2px 4px var(--green);
+}
+
+.container-main .klausimai:hover a,
+.container-main .klausimai:focus a {
+  color: var(--light-blue);
+  text-shadow: 2px 2px 4px var(--light-blue);
+}
 
 /* Klausimai ir atsakymai */
 
 .bg-klausimai {
-  display: flex;
-  justify-content: center;
-
-  background-image: url(../images/alessio-soggetti-LFjxCbhs0QM-unsplash.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('/images/croped_mountains.jpg');
   background-size: cover;
   /* background: rgb(5, 94, 158);
     background: linear-gradient(270deg, rgba(5, 94, 158, 0.4864146342130602) 50%, rgba(74, 227, 245, 1) 100%); */
 }
 
+nav h1 {
+  font-family: 'promocyjamedium', serif;
+  color: var(--violet);
+  font-size: 3em;
+  font-weight: 200;
+  letter-spacing: .2em;
+}
+
 .container {
+  padding: 0;
   display: flex;
   margin: 0 auto;
-  max-width: 1403px;
 }
 
-.container nav {
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  position: fixed;
+  height: 100vh;
+  width: 400px;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 
-.container main {
+nav::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar in WebKit browsers (e.g., Chrome) */
 }
 
-/* Navigation */
+main {
+  margin-left: 400px;
+  padding: 1em;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Navigation accordeon */
 
 .accordion {
   background: transparent;
@@ -177,36 +177,147 @@ ul li a{
   padding: 18px;
   text-align: left;
   text-transform: uppercase;
-  font-style: italic;
+  font-size: 1em;
   border: none;
+  font-family: "Playfair Display", serif;
+  width: 80%;
+  opacity: 0.7;
 }
 
-.accordion:hover{
+.accordion.active {
+  color: #14095c;
+  text-shadow: 5px 5px 5px #134b93;
   font-weight: bold;
+  opacity: 0.9;
 }
 
+.accordion:hover {
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #134b93;
+  opacity: 0.9;
+  color: #14095ca3;
+  transition: all 800ms;
+}
 
 .menu-item {
   min-width: 300px;
+  margin-bottom: 0.5em;
+  border-bottom: rgba(51, 51, 51, 0.1) 1px solid;
 }
 
-.menu-item a{
+.menu-item.active {
+  color: #14095c;
+  text-shadow: 2px 2px 5px #134b93;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.menu-item:hover {
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #134b93;
+  opacity: 0.9;
+  color: #14095c;
+  transition: text-shadow 400ms;
+}
+
+.menu-item a {
   color: rgb(5, 94, 158);
-    color: linear-gradient(329deg, rgba(5, 94, 158, 0.4864146342130602) 52%, rgba(5, 51, 80, 0.6516807406556373) 96%);
+  color: linear-gradient(329deg, rgba(5, 94, 158, 0.4864146342130602) 52%, rgba(5, 51, 80, 0.6516807406556373) 96%);
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  margin: 1em 0;
+}
+
+.main-nav {
+  background: transparent;
+}
+
+.main-nav img {
+  max-width: 40%;
+  object-fit: contain;
+  flex: 1;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.main-nav img:hover {
+  box-shadow: 5px 5px 50px #134b93;
+  transition: box-shadow 1s;
+}
+
+.nav-logo {
+  flex: 1 50%;
+  margin: 0;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.main-nav ul li {
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+.main-nav ul li a {
+  color: var(--violet);
+}
+
+.main-nav ul li a:hover {
+  color: gray;
+  letter-spacing: 5px;
 }
 
 /* Main */
-main {
-  padding: 1em;
-}
 
-main section{
+main section {
   background: white;
-  opacity: 0.8;
+  opacity: 0.5;
   padding: 1em;
   max-width: 70%;
+  color: #000;
 }
 
 .panel {
   display: none;
+}
+
+/* Media queries */
+
+@media (max-width: 840px) {
+  .container-main .nav a {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .container-main .nav a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .container-main .nav a {
+    font-size: 1.6rem;
+  }
 }

@@ -4,16 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Klausimai ir atsakymai</title>
 </head>
+
 <body class="bg-klausimai">
     <div class="container">
 
         <nav>
+            <div class="main-nav">
+                <div class="logo">
+                    <img src="../images/threefold-flame-square.png" alt="Logo">
+                    <ul class="nav-logo hidden">
+                        <li><a href="#namai">Į pradžią</a></li>
+                        <li><a href="#diktavimai">Diktavimai</a></li>
+                        <li><a href="#irankiai">Irankiai</a></li>
+                        <li><a href="#knygos">Knygos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h1>Klausimai</h1>
             <button class="accordion">Mokymai</button>
             <ul class="panel">
                 <li class="menu-item">
@@ -27,7 +43,8 @@
                     <a href="/html/klausimai_ir_atsakymai/mokymai/valdzios_elitas.php">Valdžios elitas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/mokymai/pamatiniai_mokymai/apie_visatos_sukurima.php">Elementarus mokymas apie visatos sukūrimą</a>
+                    <a href="/html/klausimai_ir_atsakymai/mokymai/pamatiniai_mokymai/apie_visatos_sukurima.php">Elementarus
+                        mokymas apie visatos sukūrimą</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/mokymai/kristiskumo_mokymai.php">Kristiškumo mokymai</a>
@@ -57,7 +74,8 @@
                     <a href="/html/klausimai_ir_atsakymai/mokymai/glosarijus/glosarijus.php">Glosarijus</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/mokymai/kim_michaels_straipsniai.php">Kim Michaels straipsniai</a>
+                    <a href="/html/klausimai_ir_atsakymai/mokymai/kim_michaels_straipsniai.php">Kim Michaels
+                        straipsniai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/mokymai/apie_kimo_darba.php">Apie Kimo darbą</a>
@@ -78,13 +96,15 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/angelai.php">Angelai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/pakyletieji_mokytojai.php">Pakylėtieji Mokytojai</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/pakyletieji_mokytojai.php">Pakylėtieji
+                        Mokytojai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/dvasiniai_ciklai.php">Dvasiniai ciklai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/laipsniskas_apreiskimas.php">Laipsniškas apreiškimas</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/laipsniskas_apreiskimas.php">Laipsniškas
+                        apreiškimas</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasine_karalija/non-dualizmas.php">Non-dualizmas</a>
@@ -96,7 +116,8 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/apie_avatarus.php">Apie Avatarus</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/gyvenimo_tikslas.php">Gyvenimo tikslas, Dangiškasis
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/gyvenimo_tikslas.php">Gyvenimo tikslas,
+                        Dangiškasis
                         planas</a>
                 </li>
                 <li class="menu-item">
@@ -115,11 +136,13 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/ejimas_keliu.php">Ėjimas keliu</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/gimimo_trauma_ir_atskirosios_savastys.php">Gimimo trauma, pirmykštė savastis
-                         ir atskirosios savastys</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/gimimo_trauma_ir_atskirosios_savastys.php">Gimimo
+                        trauma, pirmykštė savastis
+                        ir atskirosios savastys</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/dvasiniai_mokytojai.php">Dvasiniai mokytojai</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/dvasiniai_mokytojai.php">Dvasiniai
+                        mokytojai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/mokytojas-mokinys.php">Mokytojas-mokinys</a>
@@ -131,13 +154,16 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/dvasiniai_irankiai.php">Dvasiniai įrankiai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kristiskumas.php">Kristiškumas ir Budiškumas</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kristiskumas.php">Kristiškumas ir
+                        Budiškumas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kristaus_izvalgumas.php">Kristaus Įžvalgumas</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kristaus_izvalgumas.php">Kristaus
+                        Įžvalgumas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kaip_kalbeti_kitiems.php">Kaip kalbėti kitiems</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/kaip_kalbeti_kitiems.php">Kaip kalbėti
+                        kitiems</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasinis_kelias/pakylejimas.php">Pakylėjimas</a>
@@ -146,13 +172,16 @@
             <button class="accordion">Dvasinės temos</button>
             <ul class="panel">
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasines_koncepcijos.php">Dvasinės koncepcijos</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasines_koncepcijos.php">Dvasinės
+                        koncepcijos</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasiniai_judejimai.php">Dvasiniai judėjimai</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasiniai_judejimai.php">Dvasiniai
+                        judėjimai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasines_konferencijos.php">Dvasinės konferencijos</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasines_konferencijos.php">Dvasinės
+                        konferencijos</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasines_patirtys.php">Dvasinės patirtys</a>
@@ -161,16 +190,19 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dvasine_krize.php">Dvasinė krizė</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/vyriskumas-moteriskumas.php">Vyriškumas-Moteriškumas</a>
+                    <a
+                        href="/html/klausimai_ir_atsakymai/dvasines_temos/vyriskumas-moteriskumas.php">Vyriškumas-Moteriškumas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/karma_reinkarnacija.php">Karma, reinkarnacija</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/karma_reinkarnacija.php">Karma,
+                        reinkarnacija</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/mirtis.php">Mirtis ir Antroji Mirtis</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/nepaaiskinami_reiskiniai.php">Nepaaiškinami reiškiniai</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/nepaaiskinami_reiskiniai.php">Nepaaiškinami
+                        reiškiniai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/netikri_mokytojai.php">Netikri mokytojai</a>
@@ -182,7 +214,8 @@
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/dualizmas_nuopolis.php">Dualizmas, nuopolis</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/tamsos_jegos.php">Tamsos jėgos, Puolusios būtybės</a>
+                    <a href="/html/klausimai_ir_atsakymai/dvasines_temos/tamsos_jegos.php">Tamsos jėgos, Puolusios
+                        būtybės</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/dvasines_temos/blogis.php">Blogis</a>
@@ -191,7 +224,8 @@
             <button class="accordion">Religija</button>
             <ul class="panel">
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/religija/universalus_dvasingumas.php">Universalus dvasingumas</a>
+                    <a href="/html/klausimai_ir_atsakymai/religija/universalus_dvasingumas.php">Universalus
+                        dvasingumas</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/religija/religines_temos.php">Religinės temos, mitologija</a>
@@ -203,13 +237,15 @@
                     <a href="/html/klausimai_ir_atsakymai/religija/religiniai_rastai.php">Religiniai raštai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/religija/biblijos_interpretacijos.php">Biblijos interpretacijos</a>
+                    <a href="/html/klausimai_ir_atsakymai/religija/biblijos_interpretacijos.php">Biblijos
+                        interpretacijos</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/religija/budizmas.php">Budizmas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/religija/ankstyvoji_krikscionybe.php">Ankstyvoji krikščionybė</a>
+                    <a href="/html/klausimai_ir_atsakymai/religija/ankstyvoji_krikscionybe.php">Ankstyvoji
+                        krikščionybė</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/religija/krikscionybe_siandien.php">Krikščionybė šiandien</a>
@@ -239,23 +275,27 @@
             <button class="accordion">Praktinis gyvenimas</button>
             <ul class="panel">
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/praktinis_gyvenimas.php">Praktinis gyvenimas</a>
+                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/praktinis_gyvenimas.php">Praktinis
+                        gyvenimas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/santykiai_tarp_zmoniu.php">Santykiai tarp žmonių</a>
+                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/santykiai_tarp_zmoniu.php">Santykiai tarp
+                        žmonių</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/santykiai_meile.php">Santykiai, meilė</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/tevu_ir_vaiku_santykiai.php">Tėvų ir vaikų santykiai,
+                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/tevu_ir_vaiku_santykiai.php">Tėvų ir vaikų
+                        santykiai,
                         šeima</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/fizinis_gydymas.php">Fizinis gydymas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/psichologinis_gydymas.php">Psichologinis gydymas</a>
+                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/psichologinis_gydymas.php">Psichologinis
+                        gydymas</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/psichines_ligos.php">Psichinės ligos</a>
@@ -267,7 +307,8 @@
                     <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/lytiskumas.php">Lytiškumas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/filmai_ir_muzika.php">Filmai, muzika, menas ir
+                    <a href="/html/klausimai_ir_atsakymai/praktinis_gyvenimas/filmai_ir_muzika.php">Filmai, muzika,
+                        menas ir
                         sportas</a>
                 </li>
                 <li class="menu-item">
@@ -277,35 +318,43 @@
             <button class="accordion">Pasaulinės problemos</button>
             <ul class="panel">
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/visuomenes_keitimas.php">Visuomenės keitimas</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/visuomenes_keitimas.php">Visuomenės
+                        keitimas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/pokyciai_pasaulyje.php">Pokyčiai pasaulyje</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/pokyciai_pasaulyje.php">Pokyčiai
+                        pasaulyje</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/istorines_asmenybes.php">Istorinės asmenybės</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/istorines_asmenybes.php">Istorinės
+                        asmenybės</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/demokratija.php">Demokratija</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/pinigai_ekonomika.php">Pinigai, ekonomika</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/pinigai_ekonomika.php">Pinigai,
+                        ekonomika</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/mokslas.php">Mokslas, technologija, švietimas</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/mokslas.php">Mokslas, technologija,
+                        švietimas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/politiniai_klausimai.php">Politiniai klausimai</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/politiniai_klausimai.php">Politiniai
+                        klausimai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/valdzios_elitas.php">Valdžios elitas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/zmoniu_vykdomi_ziaurumai.php">Žmonių vykdomi
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/zmoniu_vykdomi_ziaurumai.php">Žmonių
+                        vykdomi
                         žiaurumai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/gamtos_kataklizmai.php">Gamtos kataklizmai</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/gamtos_kataklizmai.php">Gamtos
+                        kataklizmai</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/gamta.php">Gamta</a>
@@ -314,7 +363,8 @@
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/amerikos.php">Amerikos</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/azija_ir_australija.php">Azija ir Australija</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/azija_ir_australija.php">Azija ir
+                        Australija</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/europa.php">Europa</a>
@@ -323,7 +373,8 @@
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/vidurio_rytai.php">Vidurio Rytai</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/rusija.php">Rusija, Ukraina, Baltarusija</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/rusija.php">Rusija, Ukraina,
+                        Baltarusija</a>
                 </li>
                 <li class="menu-item">
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/jav.php">JAV</a>
@@ -332,50 +383,147 @@
                     <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/afrika.php">Afrika</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/moteru_problemos.php">Moterų problemos</a>
+                    <a href="/html/klausimai_ir_atsakymai/pasaulines_problemos/moteru_problemos.php">Moterų
+                        problemos</a>
                 </li>
             </ul>
+
         </nav>
 
-        <main> 
+        <main>
             <section>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore vero odit consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit quod! Labore, accusamus?
-                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga ducimus inventore. Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
-                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa consequuntur? Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit voluptatem quae eius?
-                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus suscipit porro deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus nobis est optio.
-                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat laborum alias impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error corrupti.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore vero odit
-                        consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit quod! Labore,
-                        accusamus?
-                        Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga ducimus inventore.
-                        Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
-                        Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa consequuntur?
-                        Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit voluptatem quae
-                        eius?
-                        Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus suscipit porro
-                        deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus nobis est optio.
-                        Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat laborum alias
-                        impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error corrupti.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore vero odit
-                            consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit quod! Labore,
-                            accusamus?
-                            Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga ducimus inventore.
-                            Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
-                            Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa consequuntur?
-                            Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit voluptatem quae
-                            eius?
-                            Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus suscipit porro
-                            deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus nobis est optio.
-                            Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat laborum alias
-                            impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error corrupti.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit
+                    suscipit quod! Labore, accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore. Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae,
+                    qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur? Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore
+                    nobis velit voluptatem quae eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor
+                    repellendus nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi,
+                    iste quia error corrupti.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit
+                    consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit
+                    quod! Labore,
+                    accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore.
+                    Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur?
+                    Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit
+                    voluptatem quae
+                    eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro
+                    deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus
+                    nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias
+                    impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error
+                    corrupti.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit
+                    consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit
+                    quod! Labore,
+                    accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore.
+                    Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur?
+                    Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit
+                    voluptatem quae
+                    eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro
+                    deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus
+                    nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias
+                    impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error
+                    corrupti.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit
+                    consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit
+                    quod! Labore,
+                    accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore.
+                    Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur?
+                    Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit
+                    voluptatem quae
+                    eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro
+                    deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus
+                    nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias
+                    impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error
+                    corrupti.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit
+                    consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit
+                    quod! Labore,
+                    accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore.
+                    Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur?
+                    Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit
+                    voluptatem quae
+                    eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro
+                    deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus
+                    nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias
+                    impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error
+                    corrupti.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis, assumenda illo inventore
+                    vero odit
+                    consequatur, voluptatem perferendis iste quia debitis non magni? Molestias quia impedit suscipit
+                    quod! Labore,
+                    accusamus?
+                    Facere quibusdam voluptas distinctio minima aperiam obcaecati, aut provident. Odio at rerum fuga
+                    ducimus inventore.
+                    Minima est ut iure voluptates modi! Magni unde aut provident error in! Molestiae, qui incidunt.
+                    Eligendi explicabo porro dolore sed blanditiis expedita saepe nostrum debitis! Illum sunt culpa
+                    consequuntur?
+                    Dolorum, perferendis! Blanditiis autem magnam beatae unde ducimus fuga. Debitis labore nobis velit
+                    voluptatem quae
+                    eius?
+                    Maxime libero nobis laudantium quis sit harum molestias expedita placeat animi nostrum, repellendus
+                    suscipit porro
+                    deserunt voluptatibus, velit vitae nihil pariatur delectus quae odit. Inventore dolor repellendus
+                    nobis est optio.
+                    Aliquam iste porro excepturi tempore eveniet inventore, veniam, accusamus corrupti libero fugiat
+                    laborum alias
+                    impedit quidem. Beatae tempore minus totam, perferendis atque ad ab dolores sequi, iste quia error
+                    corrupti.
                 </p>
             </section>
-    
-    </main>
+
+        </main>
 
     </div>
-    <script src="./js/nav.js" type="text/javascript"></script>
+    <script src="/js/nav.js" type="text/javascript"></script>
 </body>
+
 </html>
